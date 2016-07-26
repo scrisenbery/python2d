@@ -1,0 +1,8 @@
+runtime: python27
+api_version: 1
+threadsafe: false
+application: google.com:scrisenbery-gcp
+
+handlers:
+- url: /
+  script: two_d.app
